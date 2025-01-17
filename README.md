@@ -1,6 +1,6 @@
 # Digital-Clock
 
-This repository contains the code for a digital clock project. The project includes two main files:
+This repository contains the code for a basic digital clock project. The project includes two main files:
 
 - `Digital_Clock.py`: This file contains the Python code for the digital clock.
 - `Digital_Clock.html`: This file contains the HTML code for the digital clock.
