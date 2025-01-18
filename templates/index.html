@@ -10,18 +10,28 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #f2e750;
+            background: linear-gradient(to right,rgb(138, 117, 255),rgb(128, 126, 255));
             margin: 0;
+            font-family: 'Arial', sans-serif;
         }
         .clock {
-            font-family: 'Boulder', sans-serif;
-            font-size: 68px;
-            color: #363529;
+            background: rgb(55, 42, 42);
+            padding: 20px 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(206, 28, 28, 0.3);
+        }
+        .clock-text {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 5rem;
+            color: #fff;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <div class="clock" id="clock"></div>
+    <div class="clock">
+        <div class="clock-text" id="clock"></div>
+    </div>
     <script>
         function updateClock() {
             var now = new Date();
