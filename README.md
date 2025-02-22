@@ -16,7 +16,7 @@ This is a stylish digital clock project that displays the current time with a sl
 1. **Clone the repository**:
    
     ```bash
-    git clone https://github.com/yourusername/digital-clock.git
+    git clone https://github.com/prakharmishra2002/Digital-Clock.git
     ```
 3. **Navigate to the project directory**:
    
